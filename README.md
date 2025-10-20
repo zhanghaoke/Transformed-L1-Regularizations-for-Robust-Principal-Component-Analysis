@@ -23,5 +23,5 @@ The TL1 regularization provides a tighter approximation to the rank function and
 Run the `simulation.m` script to reproduce the numerical experiments in the paper.  
 This compares our proposed TL1 model with the traditional nuclear norm model.
 
-### 1. Synthetic Data
+### 2. Video Data
 Run the video.m script to process the shoppingmall.mat video data, achieving background–foreground separation.
