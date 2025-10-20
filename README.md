@@ -10,8 +10,8 @@ Read the full paper on arXiv https://arxiv.org/pdf/2510.03624?
 
 This project addresses the **Robust Principal Component Analysis (RPCA)** problem, which decomposes an observation matrix into a **low-rank matrix (background)** and a **sparse matrix (noise/outliers)**.
 
-Traditional methods:** use the **nuclear norm** and **$\ell_1$ norm**.  
-Our approach:** introduces **Transformed $\ell_1$ (TL1)** regularization terms for both the low-rank and sparse components.
+Traditional methods: use the **nuclear norm** and **$\ell_1$ norm**.  
+Our approach: introduces **Transformed $\ell_1$ (TL1)** regularization terms for both the low-rank and sparse components.
 
 The TL1 regularization provides a tighter approximation to the rank function and $\ell_0$ norm, achieving better recovery performance both theoretically and empirically, especially under **non-uniform sampling** conditions.
 
