@@ -4,7 +4,7 @@ This repository contains the official MATLAB implementation for the paper:
 **"Transformed $\ell_1$ Regularizations for Robust Principal Component Analysis: Toward a Fine-Grained Understanding"**  
 
 **Authors:** Kun Zhao, Haoke Zhang, Jiayi Wang, and Yifei Lou  
-Read the full paper on arXiv https://arxiv.org/pdf/2510.03624?
+Read the full paper on arXiv https://arxiv.org/pdf/2510.03624
 
 ---
 
