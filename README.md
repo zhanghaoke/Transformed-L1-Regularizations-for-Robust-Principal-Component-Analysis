@@ -16,7 +16,7 @@ This project addresses the **Robust Principal Component Analysis (RPCA)** proble
 
 ### 1. Synthetic Data
 Run the `simulation.m` script to reproduce the numerical experiments in the paper.  
-This compares our proposed TL1 model with the traditional nuclear norm model.
+This compares our proposed TL1 model with the traditional L1 model.
 
 ### 2. Video Data
-Run the video.m script to process the shoppingmall.mat video data, achieving background–foreground separation.
+Run the video.m script to process the shoppingmall.mat video data to achieve background–foreground separation.
