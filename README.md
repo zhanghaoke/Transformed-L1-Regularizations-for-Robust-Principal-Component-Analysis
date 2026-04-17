@@ -3,17 +3,12 @@
 This repository contains the official MATLAB implementation for the paper:  
 **"Transformed $\ell_1$ Regularizations for Robust Principal Component Analysis: Toward a Fine-Grained Understanding"**  
 
-**Authors:** Kun Zhao, Haoke Zhang, Jiayi Wang, Yifei Lou  
+**Authors:** Kun Zhao, Haoke Zhang, Jiayi Wang, and Yifei Lou  
 Read the full paper on arXiv https://arxiv.org/pdf/2510.03624?
 
 ---
 
-This project addresses the **Robust Principal Component Analysis (RPCA)** problem, which decomposes an observation matrix into a **low-rank matrix (background)** and a **sparse matrix (noise/outliers)**.
-
-Traditional methods: use the **nuclear norm** and **$\ell_1$ norm**.  
-Our approach: introduces **Transformed $\ell_1$ (TL1)** regularization terms for both the low-rank and sparse components.
-
-The TL1 regularization provides a tighter approximation to the rank function and $\ell_0$ norm, achieving better recovery performance both theoretically and empirically, especially under **non-uniform sampling** conditions.
+This project addresses the **Robust Principal Component Analysis (RPCA)** problem, which decomposes an observation matrix (a high-dimensional data) into a **low-rank matrix (background)** and a **sparse matrix** (noise/outliers) under general (potentially non-uniform) sampling schemes, leveraging nonconvex TL1 regularization to better approximate rank and sparsity compared to classical convex approaches. An efficient ADMM-based optimization algorithm is developed to solve the resulting problem, with careful handling of both low-rank structure via singular values and sparse corruptions at the entry level. The implementation includes reproducible experiments on synthetic and real datasets, demonstrating improved recovery accuracy, robustness to missing data, and enhanced control over rank and sparsity relative to standard nuclear norm and $\ell_1$-based methods.
 
 ---
 
