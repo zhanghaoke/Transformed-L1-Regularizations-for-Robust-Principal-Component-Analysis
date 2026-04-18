@@ -19,4 +19,4 @@ Run the `simulation.m` script to reproduce the numerical experiments in the pape
 This compares our proposed TL1 model with the traditional L1 model.
 
 ### 2. Video Data
-Run the video.m script to process the shoppingmall.mat video data to achieve background–foreground separation.
+Run the `video.m` script to process the `shoppingmall.mat` video data to achieve background–foreground separation.
